@@ -4,7 +4,7 @@
  * INC Problems - chipper_and_peanuts
  * TODO
  */
-package chipper_and_peanuts;
+package Online_Coding.chipper_and_peanuts;
 
 import java.io.BufferedReader;
 import java.io.FileWriter;

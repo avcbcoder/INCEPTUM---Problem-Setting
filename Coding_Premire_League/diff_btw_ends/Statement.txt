@@ -10,6 +10,10 @@ Second line will contain N elememts - description of array.
 Output format :
 Print a single integer i.e the specified sum.
 
+Constraints :
+1<=N<=100000
+0<=A[i]<=1000000000
+
 Sample input :
 3
 3 4 6
