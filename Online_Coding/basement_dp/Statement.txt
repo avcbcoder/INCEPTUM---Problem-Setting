@@ -1,0 +1,50 @@
+Problem :
+The beautiful city of byte-land consist of 'N' buildings. All the buildings are 
+connected linearly with each other through ground floor. There are some checkpoint 
+in each building at 'X'th floor. 
+
+In one second :
+1. You can go to the left building if exists.
+2. You can go to the right building if exists.
+3. You can go one floor above in one second.
+
+There is only one checkpoint in each building.   
+
+You are given 'Q' queries:
+In each query you are given your current position 'P'.
+You need to find the minimum time required to reach a checkpoint.
+
+Input format :
+The first line of input contains a single integer T denoting the number of test cases.
+Description of Each test case :
+First line contains one integer 'N' - the number of buildings.
+Second line contains N space separated integers 'Ai' denoting checkpoints of every building. 
+Third line contains Q - number of queries. 
+Then, Q lines contains the position 'P'.
+*Note : Indexing is 1 based
+ 
+Output format :
+For each query, print Q lines containing minimum time to reach a checkpoint for 
+that query. 
+
+Constraints :
+1<=T<=50
+1<=N<=100000
+1<=Q<=1000
+0<=A[i]<=1000000000
+1<=P<=N
+
+Sample Input :
+
+Sample output :
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+Who will solve it first ?
+
+Problem :
+Bert has an array 'A' which contains N elements. He creates a new array 'B' of same 
+length 'N' using the elements of array A. For every index in array B, he places the 
+sum of all elements of array A except at that index. 
+
+Find the sum of all elements of array B mod (10^9 + 7).
+
+Input :
+The first line of input contains a single integer T denoting the number of test cases.
+Each test cases contains two lines :
+First line of the input contains 'N' - size of array.
+Second line contains N space separated integers A[i] -- the elements of array A.     
+
+Output :
+For each test case, output a single number - count of the above specified subarrays.
+
+Constraints :
+1<=T<=100
+1<=N<=100000
+1<=A[i]<=1000000000 
+
+Sample Input : 
+2
+5
+1 2 3 4 5
+5 
+8 2 6 9 3
+
+Sample Output :
+60
+112
+
+Explanation :
+
+For Test case 1:
+Array B = [14, 13, 12, 11, 10]
+Sum of all elements of B = 60
+
+For Test case 2:
+Array B = [20, 26, 22, 19, 25]
+Sum of all elements of B = 112

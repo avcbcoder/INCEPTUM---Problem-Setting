@@ -1,0 +1,51 @@
+Chipper the Squirrel
+
+Problem :
+Chipper the squirrel is sitting on a tree. This tree is different from real world
+trees. It has a set of n nodes, numbered from 1 to n. Initially, there are peanuts 
+placed on m nodes.
+In one step - chipper can go from one node to other whether it is above or below
+in the tree hierarchy.
+Note:The tree is connected i.e there exist an unique path between every two nodes.
+
+You are given 'Q' queries :
+1 X : In this case, print the nearest node containing peanut from node 'X'
+2 X : In this case chipper will eat the nearest peanut from node X if any 
+      peanut is left in the tree.   
+
+
+Input :
+The first line of the input contains two space separated integers 'N' and 'M'.
+The second line contains M space separated integers denoting the nodes which
+initially have the peanut.
+Then the input file consist of N-1 lines containing two integers U and V denoting
+an edge between node U and V.
+Then input contains 'Q' -- Number of queries.
+Each Query consist of one line containing two space separated integers 
+'T'-Type of query, 'X'-Node X  
+
+Output :
+For each type 2 query : print the nearest node containing peanut if exists 
+otherwise print -1.
+
+Constraints :
+1<=N<=100000
+1<=M<=100
+1<=U,V,X<=N
+1<=Q<=10000
+T = 1 or 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

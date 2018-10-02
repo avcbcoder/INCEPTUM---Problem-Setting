@@ -1,0 +1,8 @@
+Test case 1 :
+All subarrays of A : [1], [1,2], [1,2,2], [2], [2,2], [2]
+only 5th subarray satisfies the given condition, so answer will be 1.
+
+Test case 2 :
+All subarrays of A : [2], [2,1], [2,1,2], [2,1,2,1], [1], [1,2], 
+                     [1,2,1], [2], [2,1], [1]
+3rd, 7th subarray satisfies the given condition. So output will be 2                     

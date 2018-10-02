@@ -1,0 +1,23 @@
+Make it a 'Cyclic Polygon'.
+
+Problem :
+You are given the skeleton of a city. It consist of N residences. Each residence can be
+connected to any other residence via bi-directional road. These cities are connected 
+to each other in such a way that they form a loop (cyclic polygon).But in every such 
+loop there are some extra edges. You need to find the count of edges whose removal will 
+make that loop 'a perfect looper'. 
+ 
+Input format :
+The first line of input contains two space separated integers 'N' (number of residences)
+and 'E' (number of roads).
+The following E lines contains two space separated integers 'U' and 'V' denoting a
+bi-directional road between U and V.
+
+Output format :
+Print one single number -- the number 
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+// Equal end strings
+// palindromic ends
+01003937595826101
+
+Problem :
+Given an array, find the number of contiguous subarrays of length>1 having same element 
+at the beginning and end of subarray.
+count(i,j) {1<=i<=n, i<j<=n} such that A[i]=A[j].
+
+Input :
+The first line of input contains a single integer T denoting the number of test cases.
+Each test cases contains two lines :
+First line of the input contains 'N' - size of array.
+Second line contains N space separated integers.     
+
+Output :
+For each test case, output a single number - count of the above specified subarrays.
+
+Constraints :
+1<=T<=100
+1<=N<=100000
+0<=A[i]<=1000000000
+
+Sample Input :
+
+Sample Output :
+
