@@ -1,0 +1,35 @@
+Problem :
+
+You can sort an array but can you sort a string?
+Given a string and Q queries.
+Each Query will contain an index(0 based), print element at that index after the string
+is sorted.
+*Note : Indexing is 0 based.
+
+Input :
+First line of the input file contains a string of lowercase english alphabet.
+Second line contains Q - Number of Queries.
+Then Q lines contain a single integer x denoting index. 
+
+Output :
+For each query, print the specified output.
+
+Constraints :
+1<=length of given string<=100000
+1<=Q<=100000
+0<=x<length of string
+
+Sample Input :
+avcbcoder
+5
+1
+0
+2
+5
+8
+
+Sample Output :
+
+
+Explanation :
+

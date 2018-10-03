@@ -2,9 +2,10 @@ Problem :
 
 Find number of ways to make the string "inceptum" by choosing characters from the given
 string. Each character can be choosen only once.
+Note - Print answer modulo 1000000007
 
 Input :
-Input contains only one string.
+Input contains only one string containing all lowercase english alphabet.
 
 Output :
 Print number of ways to generate "inceptum" from given string.
