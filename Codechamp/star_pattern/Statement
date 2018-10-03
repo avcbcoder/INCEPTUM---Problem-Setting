@@ -1,0 +1,19 @@
+Given an integer N. Print the following pattern.
+
+Input :
+Input consist of only one integer N.
+
+Output :
+Print the described pattern.
+
+Constraints :
+1<=N<=100
+
+Sample Input :
+5
+
+Sample Output :
+
+
+
+
