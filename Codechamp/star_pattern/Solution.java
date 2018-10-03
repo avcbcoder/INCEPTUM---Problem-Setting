@@ -6,30 +6,35 @@
  */
 package Codechamp.star_pattern;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class Solution {
-	public static void main(String[] args) throws Exception {
-		int t = sc.nextInt();
-		while (t-- > 0)
-			solve();
-	}
-
-	// **SOLUTION**
-	public static void solve() throws Exception {
-		int n = sc.nextInt();
-		int[] arr = new int[n];
-
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
-		}
-	}
-
-	public static InputStreamReader r = new InputStreamReader(System.in);
-
-	public static BufferedReader br = new BufferedReader(r);
-
+	public static FileWriter write;
+	public static PrintWriter pw;
 	public static Scanner sc = new Scanner(System.in);
+
+	public static void main(String[] args) throws Exception {
+		write = new FileWriter("E:\\input03.txt");
+		pw = new PrintWriter(write);
+		int n = sc.nextInt();
+		pw.println(n);
+		pw.close();
+		write = new FileWriter("E:\\output03.txt");
+		pw = new PrintWriter(write);
+		int t=1;
+		for (int r = 0; r < n; r++) {
+			int s=n-1-r;
+			for (int i = 0; i < s; i++) 
+				pw.print(' ');
+			for (int i = 0; i < t; i++) 
+				pw.print("*");
+			t+=2;
+			pw.println();
+		}
+		pw.close();
+	}
+
 }

@@ -1,0 +1,24 @@
+Problem :
+
+Find number of ways to make the string "inceptum" by choosing characters from the given
+string. Each character can be choosen only once.
+
+Input :
+Input contains only one string.
+
+Output :
+Print number of ways to generate "inceptum" from given string.
+
+Constraints :
+1<=length of given string<=100000
+
+Sample Input :
+inceptium
+
+Sample Output :
+2
+
+Explanation :
+1,2,3,4,5,6,8,9 = i n c e p t u m
+2,3,4,5,6,7,8,9 = n c e p t i u m (can be transformed to "inceptum")
+
