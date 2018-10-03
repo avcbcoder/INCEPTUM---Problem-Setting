@@ -1,0 +1,51 @@
+Problem :
+In every competition who comes first gets the importance. Av never liked this 
+idea because coming first is not his cup of tea. Luckily in this version of 
+INCEPTUM he got a chance to organize a event. So, he decided not to give the 
+importance to the one who comes first and lets give it randomly.
+There are N participants in his event. Participants are ranked on the basis of marks 
+obtained irrespective of submission time.
+
+He decided that he will keep track of xth rank in his event. But, he is not 
+that much good in handling numbers . 
+Can you help him in determining xth rank at every submission?
+
+Input :
+First line contains number N denoting number of participants and number X denoting the 
+xth number to keep track of.
+Second line contains N space separated numbers denoting marks obtained by participant
+
+Output :
+Print the n-x+1 lines containing only one integer - marks obtained by Xth 
+ranked participant.
+
+Constraints :
+1<=N<=10^6
+1<=X<=N
+1<=Ni<=10^6
+
+Sample Input 1:
+5 2
+4 3 5 1 8
+
+Sample Output :
+3
+4
+4
+5
+
+Sample Input 2:
+5 3
+2 1 2 1 4 
+
+Sample Output :
+1
+1
+2
+
+
+
+
+
+
+ 

@@ -4,7 +4,7 @@
  * INC Problems - Codechamp.char_in_range
  * TODO
  */
-//package Codechamp.char_in_range;
+package Codechamp.char_in_range;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
